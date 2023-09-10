@@ -59,7 +59,7 @@ export async function search(query) {
  * @param {number} opts.count - count per page
  * @returns {Promise<import("./utils.js").DrakorIDResponse>}
  * @example
- * const data = await getCategory("drama-korea", { page: 1, count: 20 });
+ * const data = await getCategory(625, { page: 1, count: 20 });
  * console.log(data);
  */
 export async function getCategory(category_id, opts = {}) {
