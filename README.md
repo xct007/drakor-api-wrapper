@@ -7,7 +7,7 @@ This package is only use ECMAScript 6 or higher
 ## Installation
 
 ```bash
-yarn add github:xct007/drakor-id-wrapper
+yarn add github:xct007/drakor-api-wrapper
 ```
 
 ## Usage
