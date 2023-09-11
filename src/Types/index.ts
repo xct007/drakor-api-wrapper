@@ -1,11 +1,10 @@
-interface ResponseAPI {
-	error: boolean;
-	data: object[] | null;
-}
 export namespace DrakorID {
-	export type Latest = ResponseAPI;
-	export type Search = ResponseAPI;
-	export type Category = ResponseAPI;
-	export type Channel = ResponseAPI;
-	export type Detail = ResponseAPI;
+	export interface Options {
+		page: number;
+		count: number;
+	}
+	export interface Responses {
+		error: boolean;
+		data: object[] | null;
+	}
 }

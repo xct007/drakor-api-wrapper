@@ -1,20 +1,28 @@
 # DrakorID Wrapper
-A simpe API Wrapper for DrakorID
+A simple Node.JS API Wrapper for DrakorID
 
 # Note
 This package is only use ECMAScript 6 or higher
 
 ## Installation
-
+using npm
 ```bash
-yarn add github:xct007/drakor-api-wrapper
+npm i drakor-id-wrapper
+```
+using yarn
+```
+yarn add drakor-id-wrapper
+```
+github version
+```
+yarn add github:xct007/drakor-id-wrapper
 ```
 
 ## Usage
 
 ```js
 // drakor-id-wrapper
-import { latest, search, getCategory, getChannel, detail } from "src/index.js";
+import { latest, search, getCategory, getChannel, detail } from "drakor-id-wrapper";
 
 // Get latest drakor
 const latestDrakor = await latest();
@@ -46,6 +54,9 @@ const data = await detail(c_ch_id);
 ```bash
 yarn test
 ```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

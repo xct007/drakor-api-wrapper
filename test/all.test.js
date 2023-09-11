@@ -6,13 +6,12 @@ import {
 	getChannel,
 	detail,
 } from "../src/index.js";
-
 const expect = chai.expect;
 
 describe("Drakor ID API", () => {
 	describe("latest", () => {
 		it("should return latest drakor", async () => {
-			const data = await latest();
+			const data = await latest(10, 1);
 			expect(data.error).to.be.false;
 		});
 	});
