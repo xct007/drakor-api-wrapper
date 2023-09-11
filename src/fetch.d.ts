@@ -3,7 +3,7 @@ import { AxiosRequestConfig, AxiosResponse } from "axios";
 /**
  * @description Fetch data from whatbox url
  * @param {string} url - whatbox url
- * @param {object<import("axios").AxiosRequestConfig>} opts - options
+ * @param {Object<import("axios").AxiosRequestConfig>} opts - options
  * @returns {Promise<import("axios").AxiosResponse>}
  * @example
  * import fs from "fs";
